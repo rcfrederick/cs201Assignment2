@@ -134,6 +134,49 @@ test : trees
 	./trees -r ./testFiles/hisTests/shakespeare.txt ./testFiles/hisTests/shakespeare.go1 ./testFiles/myOut/test49.txt
 	./trees -g ./testFiles/hisTests/shakespeare.txt ./testFiles/hisTests/shakespeare.go2 ./testFiles/myOut/test50.txt
 	./trees -r ./testFiles/hisTests/shakespeare.txt ./testFiles/hisTests/shakespeare.go2 ./testFiles/myOut/test51.txt
+	@echo Testing your files against Lusths Outputs
+	diff ./testFiles/hisOut/test6.txt ./testFiles/myOut/test6.txt
+	diff ./testFiles/hisOut/test7.txt ./testFiles/myOut/test7.txt
+	diff ./testFiles/hisOut/test12.txt ./testFiles/myOut/test12.txt
+	diff ./testFiles/hisOut/test13.txt ./testFiles/myOut/test13.txt
+	diff ./testFiles/hisOut/test14.txt ./testFiles/myOut/test14.txt
+	diff ./testFiles/hisOut/test15.txt ./testFiles/myOut/test15.txt
+	diff ./testFiles/hisOut/test16.txt ./testFiles/myOut/test16.txt
+	diff ./testFiles/hisOut/test17.txt ./testFiles/myOut/test17.txt
+	diff ./testFiles/hisOut/test18.txt ./testFiles/myOut/test18.txt
+	diff ./testFiles/hisOut/test19.txt ./testFiles/myOut/test19.txt
+	diff ./testFiles/hisOut/test20.txt ./testFiles/myOut/test20.txt
+	diff ./testFiles/hisOut/test21.txt ./testFiles/myOut/test21.txt
+	diff ./testFiles/hisOut/test22.txt ./testFiles/myOut/test22.txt
+	diff ./testFiles/hisOut/test23.txt ./testFiles/myOut/test23.txt
+	diff ./testFiles/hisOut/test24.txt ./testFiles/myOut/test24.txt
+	diff ./testFiles/hisOut/test25.txt ./testFiles/myOut/test25.txt
+	diff ./testFiles/hisOut/test26.txt ./testFiles/myOut/test26.txt
+	diff ./testFiles/hisOut/test27.txt ./testFiles/myOut/test27.txt
+	diff ./testFiles/hisOut/test28.txt ./testFiles/myOut/test28.txt
+	diff ./testFiles/hisOut/test29.txt ./testFiles/myOut/test29.txt
+	diff ./testFiles/hisOut/test30.txt ./testFiles/myOut/test30.txt
+	diff ./testFiles/hisOut/test31.txt ./testFiles/myOut/test31.txt
+	diff ./testFiles/hisOut/test32.txt ./testFiles/myOut/test32.txt
+	diff ./testFiles/hisOut/test33.txt ./testFiles/myOut/test33.txt
+	diff ./testFiles/hisOut/test34.txt ./testFiles/myOut/test34.txt
+	diff ./testFiles/hisOut/test35.txt ./testFiles/myOut/test35.txt
+	diff ./testFiles/hisOut/test36.txt ./testFiles/myOut/test36.txt
+	diff ./testFiles/hisOut/test37.txt ./testFiles/myOut/test37.txt
+	diff ./testFiles/hisOut/test38.txt ./testFiles/myOut/test38.txt
+	diff ./testFiles/hisOut/test39.txt ./testFiles/myOut/test39.txt
+	diff ./testFiles/hisOut/test40.txt ./testFiles/myOut/test40.txt
+	diff ./testFiles/hisOut/test41.txt ./testFiles/myOut/test41.txt
+	diff ./testFiles/hisOut/test42.txt ./testFiles/myOut/test42.txt
+	diff ./testFiles/hisOut/test43.txt ./testFiles/myOut/test43.txt
+	diff ./testFiles/hisOut/test44.txt ./testFiles/myOut/test44.txt
+	diff ./testFiles/hisOut/test45.txt ./testFiles/myOut/test45.txt
+	diff ./testFiles/hisOut/test46.txt ./testFiles/myOut/test46.txt
+	diff ./testFiles/hisOut/test47.txt ./testFiles/myOut/test47.txt
+	diff ./testFiles/hisOut/test48.txt ./testFiles/myOut/test48.txt
+	diff ./testFiles/hisOut/test49.txt ./testFiles/myOut/test49.txt
+	diff ./testFiles/hisOut/test50.txt ./testFiles/myOut/test50.txt
+	diff ./testFiles/hisOut/test51.txt ./testFiles/myOut/test51.txt
 	@echo Testing your green tree outputs against my Outputs
 	diff ./testFiles/givenOutput/gtest0.txt ./testFiles/output/gtest0.txt
 	diff ./testFiles/givenOutput/gtest1.txt ./testFiles/output/gtest1.txt
@@ -210,47 +253,4 @@ test : trees
 	diff ./testFiles/givenOutput/rbtestd4.txt ./testFiles/output/rbtestd4.txt
 	diff ./testFiles/givenOutput/rbtestd5.txt ./testFiles/output/rbtestd5.txt
 	diff ./testFiles/givenOutput/rbtestd6.txt ./testFiles/output/rbtestd6.txt
-	@echo Testing your files against Lusths Outputs
-	diff ./testFiles/hisOut/test6.txt ./testFiles/myOut/test6.txt
-	diff ./testFiles/hisOut/test7.txt ./testFiles/myOut/test7.txt
-	diff ./testFiles/hisOut/test12.txt ./testFiles/myOut/test12.txt
-	diff ./testFiles/hisOut/test13.txt ./testFiles/myOut/test13.txt
-	diff ./testFiles/hisOut/test14.txt ./testFiles/myOut/test14.txt
-	diff ./testFiles/hisOut/test15.txt ./testFiles/myOut/test15.txt
-	diff ./testFiles/hisOut/test16.txt ./testFiles/myOut/test16.txt
-	diff ./testFiles/hisOut/test17.txt ./testFiles/myOut/test17.txt
-	diff ./testFiles/hisOut/test18.txt ./testFiles/myOut/test18.txt
-	diff ./testFiles/hisOut/test19.txt ./testFiles/myOut/test19.txt
-	diff ./testFiles/hisOut/test20.txt ./testFiles/myOut/test20.txt
-	diff ./testFiles/hisOut/test21.txt ./testFiles/myOut/test21.txt
-	diff ./testFiles/hisOut/test22.txt ./testFiles/myOut/test22.txt
-	diff ./testFiles/hisOut/test23.txt ./testFiles/myOut/test23.txt
-	diff ./testFiles/hisOut/test24.txt ./testFiles/myOut/test24.txt
-	diff ./testFiles/hisOut/test25.txt ./testFiles/myOut/test25.txt
-	diff ./testFiles/hisOut/test26.txt ./testFiles/myOut/test26.txt
-	diff ./testFiles/hisOut/test27.txt ./testFiles/myOut/test27.txt
-	diff ./testFiles/hisOut/test28.txt ./testFiles/myOut/test28.txt
-	diff ./testFiles/hisOut/test29.txt ./testFiles/myOut/test29.txt
-	diff ./testFiles/hisOut/test30.txt ./testFiles/myOut/test30.txt
-	diff ./testFiles/hisOut/test31.txt ./testFiles/myOut/test31.txt
-	diff ./testFiles/hisOut/test32.txt ./testFiles/myOut/test32.txt
-	diff ./testFiles/hisOut/test33.txt ./testFiles/myOut/test33.txt
-	diff ./testFiles/hisOut/test34.txt ./testFiles/myOut/test34.txt
-	diff ./testFiles/hisOut/test35.txt ./testFiles/myOut/test35.txt
-	diff ./testFiles/hisOut/test36.txt ./testFiles/myOut/test36.txt
-	diff ./testFiles/hisOut/test37.txt ./testFiles/myOut/test37.txt
-	diff ./testFiles/hisOut/test38.txt ./testFiles/myOut/test38.txt
-	diff ./testFiles/hisOut/test39.txt ./testFiles/myOut/test39.txt
-	diff ./testFiles/hisOut/test40.txt ./testFiles/myOut/test40.txt
-	diff ./testFiles/hisOut/test41.txt ./testFiles/myOut/test41.txt
-	diff ./testFiles/hisOut/test42.txt ./testFiles/myOut/test42.txt
-	diff ./testFiles/hisOut/test43.txt ./testFiles/myOut/test43.txt
-	diff ./testFiles/hisOut/test44.txt ./testFiles/myOut/test44.txt
-	diff ./testFiles/hisOut/test45.txt ./testFiles/myOut/test45.txt
-	diff ./testFiles/hisOut/test46.txt ./testFiles/myOut/test46.txt
-	diff ./testFiles/hisOut/test47.txt ./testFiles/myOut/test47.txt
-	diff ./testFiles/hisOut/test48.txt ./testFiles/myOut/test48.txt
-	diff ./testFiles/hisOut/test49.txt ./testFiles/myOut/test49.txt
-	diff ./testFiles/hisOut/test50.txt ./testFiles/myOut/test50.txt
-	diff ./testFiles/hisOut/test51.txt ./testFiles/myOut/test51.txt
 	@echo Testing Sequence complete.
